@@ -104,9 +104,9 @@ if (anu.action == 'add' && !mem.includes(Syifa.user.jid)) {
                 time_welc = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
                 time_wel = moment.tz('Asia/Kolkata').format("hh:mm")
                 memeg = mdata.participants.length
-                out = `*SELAMAT TINGGAL* 👋 @${num.split('@')[0]}`
+                out = `*KOK KELUAR KENAK MENTAL YA 😆.... KASIAN* 👋 @${num.split('@')[0]}`
                 goodbyeBut = [{buttonId:` `,buttonText:{displayText:'SELAMAT TINGGAL'}, type:1}]
-                goodbyeButt = { contentText: `${out}`, footerText: `1 KELUARR BYHH...`, buttons: goodbyeBut, headerType: 6, locationMessage: bosco3.message.locationMessage}
+                goodbyeButt = { contentText: `${out}`, footerText: `1 BEBAN KELUAR. HADEH... KASIAN SI BEBAN?`, buttons: goodbyeBut, headerType: 6, locationMessage: bosco3.message.locationMessage}
                 Syifa.sendMessage(mdata.id, goodbyeButt, MessageType.buttonsMessage, { caption: 'hehe', "contextInfo": { "mentionedJid" : [num], },})
                   }
         } catch (e) {

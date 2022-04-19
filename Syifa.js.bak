@@ -837,7 +837,7 @@ if (isBanned) return reply(mess.banned)
                               "rowId": `${prefix}l-premium`
                           },
                           {                         
-                              "title": "SALDO E-MONEY 💵",
+                              "title": "SALDO E-MONEY 📧",
                               "description" :"Topup Saldo E-Money",
                               "rowId": `${prefix}e-money`
                           },
